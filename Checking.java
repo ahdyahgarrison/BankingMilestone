@@ -7,6 +7,7 @@ public class Checking extends Accounts {
 		setBalance(balance);
 		setAccountNumber(accountNumber);
 		setOverDraft(45.00);
+		System.out.println("An overdraft fee of $45 has been assessed.");
 	}
 
 //
