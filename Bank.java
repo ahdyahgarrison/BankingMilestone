@@ -115,7 +115,7 @@ public class Bank {
 			DecimalFormat DF = new DecimalFormat("0.00");
 			System.out
 					.println("Your balance is below $" + savings.getMinBalance() + " and a $" + savings.getServiceFee()
-							+ "service fee has been assessed. Your new balance is $" + savings.getBalance());
+							+ " service fee has been assessed. Your new balance is $" + savings.getBalance());
 		}
 		double amount = savings.getBalance() * savings.getAnnualInterestRate() / 12;
 		if (savings.getBalance() > 0) {
